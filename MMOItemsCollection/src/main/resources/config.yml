@@ -1,0 +1,23 @@
+settings:
+  menu-title: "&8MMOItems Collection"
+  token-name: "&6Collection Token"
+  menu-size: 27
+items:
+  reward_a:
+    display-name: "&bForgotten Blade"
+    type: "SWORD"
+    id: "FORGOTTEN_BLADE"
+    cost: 100
+    slot: 11
+  reward_b:
+    display-name: "&dAncient Staff"
+    type: "STAFF"
+    id: "ANCIENT_STAFF"
+    cost: 150
+    slot: 13
+  reward_c:
+    display-name: "&6Old Armor"
+    type: "ARMOR"
+    id: "OLD_ARMOR"
+    cost: 200
+    slot: 15

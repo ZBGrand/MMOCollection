@@ -1,0 +1,17 @@
+name: MMOItemsCollection
+version: 1.0.0
+main: me.zbgrand.mmoitemscollection.MMOItemsCollectionPlugin
+api-version: '1.21'
+depend:
+  - MMOItems
+commands:
+  collection:
+    description: Open the MMOItems collection shop
+    usage: /collection
+  collectionadmin:
+    description: Manage Collection Tokens
+    usage: /collectionadmin <give|take|reload>
+    permission: mmoitemscollection.admin
+permissions:
+  mmoitemscollection.admin:
+    default: op
